@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+
+  <title>Articles by Eric Arneb&#xe4;ck</title>
+  <link>https://erkaman.github.io/articles.html</link>
+  <description>Some small articles and tutorials written by Eric Arneb&#xe4;ck</description>
+  <atom:link href="https://erkaman.github.io/rss.xml" rel="self" type="application/rss+xml" />
+
+
+  <item>
+    <title>How to ray-intersect a transformed geometry, without actually transforming it: a geometric illustration</title>
+    <link>https://erkaman.github.io/posts/ray_trace_inverse_ray.html</link>
+    <guid>https://erkaman.github.io/posts/ray_trace_inverse_ray.html</guid>
+    <description>
+	The 
+  goal of this article, is to describe how we can transform some geometry with a transformation matrix,
+  and then compute the intersection between the transformed geometry, and some ray. However, we want to do
+  this without <it>actually</it> transforming the geometry, since this can be expensive.  
+    </description>
+  </item>
+ 
+
+  <item>
+    <title>How to Start Learning Computer Graphics Programming</title>
+    <link>https://erkaman.github.io/posts/beginner_computer_graphics.html</link>
+    <guid>https://erkaman.github.io/posts/beginner_computer_graphics.html</guid>
+    <description>
+	I will in this post, give my advice to beginners on how to get started with learning Computer Graphics Programming.
+    </description>
+  </item>
+ 
+  <item>
+    <title>How to Sanity Check your Spherical Harmonics Projection Code</title>
+    <link>https://erkaman.github.io/posts/sh_sanity_check.html</link>
+    <guid>https://erkaman.github.io/posts/sh_sanity_check.html</guid>
+    <description>
+      In this post, I will show a small sanity check I use to verify that my spherical harmonics code is correct.
+    </description>
+  </item>
+  
+  
+  <item>
+    <title>Recovering the Scale, Rotation and Translation Matrices from the Model Matrix</title>
+    <link>https://erkaman.github.io/posts/model_matrix_recover.html</link>
+    <guid>https://erkaman.github.io/posts/model_matrix_recover.html</guid>
+    <description>
+      I will in this post show how to recover the separate translation, scale, and rotation matrices from the model matrix.
+    </description>
+  </item>
+
+  
+  <item>
+    <title>Hierarchical Z-buffer Occlusion Culling: A Brief Explanation</title>
+    <link>https://erkaman.github.io/posts/hiz_occlusion_culling.html</link>
+    <guid>https://erkaman.github.io/posts/hiz_occlusion_culling.html</guid>
+    <description>
+      A brief explanation of the Hierarchical Z-buffer Occlusion Culling technique.
+    </description>
+  </item>
+  
+  
+  <item>
+    <title>Explanation of the paper 'View-warped Multi-view Soft Shadows for Local Area Lights'</title>
+    <link>https://erkaman.github.io/posts/marrs2018.html</link>
+    <guid>https://erkaman.github.io/posts/marrs2018.html</guid>
+    <description>
+	
+	I will in this post write down an explanation of the intuition behind the paper
+   'View-warped Multi-view Soft Shadows for Local Area Lights'.
+    </description>
+  </item>
+
+  <item>
+    <title>Explanation of the paper 'As-Rigid-As-Possible Surface Modeling'</title>
+    <link>https://erkaman.github.io/posts/sorkine2007.html</link>
+    <guid>https://erkaman.github.io/posts/sorkine2007.html</guid>
+    <description>
+I will in this post write down an explanation of the intuition behind the paper
+'As-Rigid-As-Possible Surface Modeling'.
+    </description>
+  </item>
+  
+  
+  <item>
+    <title>TL;DR of the paper 'Revisiting The Vertex Cache: Understanding and Optimizing Vertex Processing on the modern GPU'</title>
+    <link>https://erkaman.github.io/posts/kerbl2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/kerbl2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Revisiting The Vertex Cache: Understanding and Optimizing Vertex Processing on the modern GPU'
+    </description>
+  </item>
+  
+  <item>
+    <title>TL;DR of the paper 'Conservative Z-Prepass for Frustum-Traced Irregular Z-Buffers'</title>
+    <link>https://erkaman.github.io/posts/tokuyoshi2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/tokuyoshi2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Conservative Z-Prepass for Frustum-Traced Irregular Z-Buffers'
+    </description>
+  </item>
+
+  
+   <item>
+    <title>TL;DR of the paper 'Stratified Sampling of Projected Spherical Caps'</title>
+    <link>https://erkaman.github.io/posts/urena2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/urena2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Stratified Sampling of Projected Spherical Caps'
+    </description>
+  </item>
+    
+   <item>
+    <title>TL;DR of the paper 'Reconstructing Scenes with Mirror and Glass Surfaces'</title>
+    <link>https://erkaman.github.io/posts/whelan2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/whelan2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Reconstructing Scenes with Mirror and Glass Surfaces'
+    </description>
+  </item>
+    
+  
+  
+   <item>
+    <title>TL;DR of the paper 'Collision-Aware and Online Compression of Rigid Body Simulations via Integrated Error Minimization'</title>
+    <link>https://erkaman.github.io/posts/jeruzalski2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/jeruzalski2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Collision-Aware and Online Compression of Rigid Body Simulations via Integrated Error Minimization'
+    </description>
+  </item>
+  
+  <item>
+    <title>TL;DR of the paper 'Cube-to-sphere projections for procedural texturing and beyond'</title>
+    <link>https://erkaman.github.io/posts/zucker2018_tldr.html</link>
+    <guid>https://erkaman.github.io/posts/zucker2018_tldr.html</guid>
+    <description>
+	   I will in this post write down a TL;DR of the paper 'Cube-to-sphere projections for procedural texturing and beyond'
+    </description>
+  </item>
+
+  <item>
+    <title>Smoothly Filling Holes in 3D meshes using Variational Calculus and Surface Fairing</title>
+    <link>https://erkaman.github.io/posts/hole_filling.html</link>
+    <guid>https://erkaman.github.io/posts/hole_filling.html</guid>
+    <description>
+      In this article, we describe an approach to smoothly filling
+      holes in broken meshes that is based on variational
+      calculus. However, do note that it is not assumed that the
+      reader has experience in variational calculus, and we will
+      instead introduce the necessary concepts from this topic when
+      they are needed. Most of the techniques described in this
+      article are based the description of Surface Fairing in section
+      4.3 of [1]. In the below image, it is shown how our described
+      algorithm can be used to smoothly and naturally fill holes in a
+      broken mesh
+    </description>
+  </item>
+
+  <item>
+    <title>An Intuitive Explanation of using Poisson Blending for
+  Seamless Copy-and-Paste of Images</title>
+    <link>https://erkaman.github.io/posts/poisson_blending.html</link>
+    <guid>https://erkaman.github.io/posts/poisson_blending.html</guid>
+    <description>
+      In this article, we explain the intuition behind an image
+      processing technique called Poisson Blending. This technique is
+      an image processing operator that allows the user to insert one
+      image into another, without introducing any visually unappealing
+      seams. Furthermore, this technique also makes sure that the
+      color of the inserted image is also shifted, so that the
+      inserted object feels as if it is part of the environment of the
+      target image. So a bright object copy-and-pasted into a rather
+      dark image, will have its color shifted to a darker color. In
+      the below image, an image of a kitten has been copy-and-pasted
+      into an image of a library using poisson blending, and as can be
+      observed, there are no visible seams.
+    </description>
+  </item>
+
+  <item>
+    <title>A Simple, and Trivially Parallelizable Triangle Rasterization Approach</title>
+    <link>https://erkaman.github.io/posts/fast_triangle_rasterization.html</link>
+    <guid>https://erkaman.github.io/posts/fast_triangle_rasterization.html</guid>
+    <description>
+      In this article, a triangle rasterization algorithm that is easy
+      to implement, yet trivial to parallelize is described. The
+      algorithm is as follows: it turns out that it is not difficult
+      to test whether an arbitrary point is inside a triangle. Armed
+      with such a test, a triangle can easily be rasterized by first
+      finding the bounding box of the triangle, and then only
+      rasterizing the pixels inside this bounding box that pass the
+      test.
+    </description>
+  </item>
+
+  <item>
+    <title>Interviewing for your First Job as a Graphics Programmer: a
+  Checklist of Common Interview Questions</title>
+    <link>https://erkaman.github.io/posts/junior_graphics_programmer_interview.html</link>
+    <guid>https://erkaman.github.io/posts/junior_graphics_programmer_interview.html</guid>
+    <description>
+      I have recently been interviewing at game companies, trying to
+      land a job as a junior graphics programmer. Having done so, I
+      gained knowledge of what skills game companies expect of a newly
+      graduated graphics programmer, and what questions they are
+      likely to ask during interviews. I will in this article compile
+      these findings into a handy checklist. The intention is that
+      other newly graduated programmers can use this list as a way to
+      prepare, by providing them with a list of topics that they
+      should rehearse before going into their first
+      interview. However, as a disclaimer, I do not recommend just
+      memorizing a bunch of answers to these questions. The topics in
+      this list are topics that you need to understand and master in
+      order to solve the programming problems that you will encounter
+      as a professional graphics programmer. Always strive to
+      understand, not to memorize.
+    </description>
+  </item>
+
+  <item>
+    <title>Simple Curve Fitting with the Gauss-Newton Algorithm</title>
+    <link>https://erkaman.github.io/posts/gauss_newton.html</link>
+    <guid>https://erkaman.github.io/posts/gauss_newton.html</guid>
+    <description>
+      In the description of the physically based rendering
+      implementation of Unreal Engine 4[1], Karis states that instead
+      of using the classical Fresnel formula
+    </description>
+  </item>
+
+  <item>
+    <title>Parallelizing the Gauss-Seidel Method using Graph Coloring</title>
+    <link>https://erkaman.github.io/posts/gauss_seidel_graph_coloring.html</link>
+    <guid>https://erkaman.github.io/posts/gauss_seidel_graph_coloring.html</guid>
+    <description>
+      In a previous article, we introduced the Jacobi and Gauss-Seidel
+      methods, which are iterative methods for solving linear systems
+      of equation. Specifically, we noted that the Gauss-Seidel method
+      will in general converge towards a solution much quicker than
+      the Jacobi method. The main issue with the Gauss-Seidel method
+      is that it is non-trivial to make into a parallel
+      algorithm. However, it turns out that for a certain class of
+      matrices, it is pretty simple to implement a parallel
+      Gauss-Seidel method. Consider the below linear system
+    </description>
+  </item>
+
+
+  <item>
+    <title>Showing the Correctness of Quaternion Rotation</title>
+    <link>https://erkaman.github.io/posts/quaternion_rotation.html</link>
+    <guid>https://erkaman.github.io/posts/quaternion_rotation.html</guid>
+    <description>
+      In this article, we shall provide an algebraic proof that shows
+      that quaternion rotation is correct. As is well-known, we can
+      rotate a vector $\vec{v}$ by an angle $\theta$ around the
+      rotation axis $\vec{u}$ using quaternions. This is done with the
+      calculation
+    </description>
+  </item>
+
+  <item>
+    <title>The Gauss-Seidel and Jacobi Methods for Solving Linear Systems</title>
+    <link>https://erkaman.github.io/posts/jacobi_and_gauss_seidel.html</link>
+    <guid>https://erkaman.github.io/posts/jacobi_and_gauss_seidel.html</guid>
+    <description>
+      In this article, we shall explain the Jacobi and Gauss-Seidel
+      methods, which are two iterative methods used for solving
+      systems of linear equations. Our main objective is to describe
+      how the Gauss-Seidel method can be made into a highly parallel
+      algorithm, thus making it feasable for implementation on the
+      GPU, or even on the CPU using SIMD intrinsics. But before we can
+      do that, it is necessary to describe the Gauss-Seidel and Jacobi
+      methods to the reader.
+    </description>
+  </item>
+
+  <item>
+    <title>Computing the Area of a Convex Polygon</title>
+    <link>https://erkaman.github.io/posts/area_convex_polygon.html</link>
+    <guid>https://erkaman.github.io/posts/area_convex_polygon.html</guid>
+    <description>
+      In this article, we shall derive a formula that computes the
+      area of a convex polygon. That is, given the vertices
+      $\mvec{v_0}, \mvec{v_1},\dots,\mvec{v_n}$ of some convex polygon
+      $P$, we want to compute its area, which we denote $A(P)$. We
+      will use the below polygon for illustrations:
+    </description>
+  </item>
+
+
+  <item>
+    <title>My Master's Thesis: "Comparing a Clipmap to a Sparse Voxel Octree for Global Illumination"</title>
+    <link>https://erkaman.github.io/posts/masters_thesis.html</link>
+    <guid>https://erkaman.github.io/posts/masters_thesis.html</guid>
+    <description>
+      Voxel cone tracing is a real-time method that approximates
+      global illumination using a voxel approximation of the original
+      scene. However, a high-resolution voxel approximation, which is
+      necessary for good quality, consumes much memory, and a compact
+      data structure for storing the voxels is necessary. In this
+      thesis, as a primary contribution, we provide a comparison of
+      two such data structures: a Sparse Voxel Octree, and a Clipmap.
+    </description>
+  </item>
+
+  <item>
+    <title>Implementing Run-length encoding in CUDA</title>
+    <link>https://erkaman.github.io/posts/cuda_rle.html</link>
+    <guid>https://erkaman.github.io/posts/cuda_rle.html</guid>
+    <description>In the paper Fine-Grain Parallelization of Entropy
+    Coding on GPGPUs, Ana Balevic describes how Run-length
+    encoding(hereafter abbreviated RLE) can be implemented on the
+    GPU. Although the paper is very sparse on details, I have been
+    able to implement her approach in CUDA. For the purpose of
+    providing a supplementary document to her paper, I would now like
+    to go through how I implemented this technique in CUDA.
+</description>
+  </item>
+
+  <item>
+    <title>Making Faster Fragment Shaders by Using Tessellation Shaders</title>
+    <link>https://erkaman.github.io/posts/tess_opt.html</link>
+    <guid>https://erkaman.github.io/posts/tess_opt.html</guid>
+    <description>In the paper Automatic Shader Simplification using
+    Surface Signal Approximation, Wang et al. describes an algorithm
+    that does automatic shader simplification. Put briefly, the
+    algorithm automatically rewrites shaders so that they become much,
+    much faster. They are using several techniques to achieve this,
+    and one of those techniques I'd like to describe in this post. The
+    technique is that they are moving expensive operations from the
+    fragment shader into some earlier shader stage, and by doing so
+    they greatly reduce the number of times said operation has to be
+    evaluated. In this article, I shall in much detail describe this
+    technique.
+</description>
+  </item>
+
+
+</channel>
+
+</rss>

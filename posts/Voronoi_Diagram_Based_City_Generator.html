@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Peiying Zhang</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <link rel="alternate" type="application/rss+xml" href="../rss.xml" title="Articles by Eric Arneb&#xe4;ck"/>
+
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+
+  </head>
+  <body>
+
+    <div class="header container">
+      <div class="row">
+        <div class="twelve columns">
+          <nav>
+            <ul>
+              <li class="myname"><a href="../index.html">Peiying Zhang</a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../projects.html">Projects</a></li>
+              <li><a href="../articles.html">Articles</a></li>
+              <li><a href="../resume.html">Resume</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h1>Voronoi Diagram Based City Generator: A Procedural Generation Approach to Create Adjustable City in Games</h1>
+      <p>
+        The idea of making a city generator in game engine comes from one of my internship experience. At that time, we used Houdini as a third party tool to do procedural generation. Which is quite fun,
+        but in my point of view, it's not a real-time tool and it takes too much time to complie the HDA in the game scene. This is not that efficient, then i occasionally read a essay from yolo's author, in that essay he used this voronoi method to do procedural generation for city.
+        So I decided to follow the path and try to implement by myself in Unreal. 
+      </p>
+      <p> Following is the videos about how it works:</p>
+
+      <iframe
+        width="100%"
+        height="360"
+        src="https://www.youtube.com/embed/4IroXxOxvyA?autoplay=1"
+        title="Portfolio demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <p>The image below is the CORE logic of the whole generating process, it construt a voronoi graph first, then find corner vertices, edges and triangles.</p>
+
+      <img src="../img/voronoi/2.4.PNG" alt="3D Renderer Screenshot" width="480" height="360" style="display: block; margin: 0 auto;">
+      <img src="../img/voronoi/2.5.png" alt="3D Renderer Screenshot" width="500" height="500" style="display: block; margin: 0 auto;">
+      <img src="../img/voronoi/2.6.png" alt="3D Renderer Screenshot" width="480" height="360" style="display: block; margin: 0 auto;">
+      <img src="../img/voronoi/2.7.png" alt="3D Renderer Screenshot" width="480" height="360" style="display: block; margin: 0 auto;">
+      <p>
+        I wrote a very detailed essay about how it works, you can check it here.
+      </p>
+
+      <iframe src="../img/voronoi/2.8.pdf#page=3" width="100%" height="600px"></iframe>
+      
+      <!-- Add your content here -->
+
+    </div>
+
+    <div class="container">
+      <div class="footer">
+        <hr>
+          <ul>
+          <li><a href="mailto:audrey.peiying.zhang@gmail.com" title="">  <img src="../img/email.png" alt="email"> </a></li>
+          <li><a href="https://github.com/AudreyPeiyingZhang">  <img src="../img/github.png" alt="github"> </a></li>
+          <li><a href="https://www.linkedin.com/in/audrey-peiying-zhang/">  <img src="../img/linked-in.png" alt="linked-in"> </a></li>
+          <li><a href="https://www.youtube.com/@audrey_zhang4454">  <img src="../img/youtube.png" alt="youtube"> </a></li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
